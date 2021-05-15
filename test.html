@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/home/sudhamshusubedi/test.css">
+<title>
+    TEST
+</title>
+
+
+<!--
+    Tag bhaneko start ra close garna parne ie <a> </a>
+
+    self closing tag bhaneko eutai ma sakine i.e. <br>
+    
+    suru ma sab <a> tag ko kura xa line 46 samma -->
+<!--Kunai arko page ma jana ko lagi siddai link dina sakinxa tala diye jasari image tag bhanni nam diyeko xa
+suru ma use garne bela #dinu parxa ani tesailai lagera tala page ma id banaune bina hash euta Id i.e.imagetag chai ek choti matra
+dina milxa bhaney class chai jati pani so  farak farak bela eutai formatting script use garna xa bhaney class diney -->
+<a href=" #image tag " style="text-align: right; "> Go to image tag page </a>
+<h1 style="font-size: 50px;color: aqua;">
+    First header <br> Use of "a" tag kasari hunxa ta bhanda: <br>
+
+    <a href="https://techaxploit.blogspot.com" style="color: blue;"> Mero first blog ma jana ko lagi click garne</a>
+    <br>
+    <p style="color: chocolate;"> Mathi ko link lai naya page ma kholni garauna ko lagi "target ko use garne" </p>
+    <a href="https://techaxploit.blogspot.com" style="color: chartreuse;" target="_blank">  Mero first blog ma jana ko lagi click garne</a>
+</h1>
+<h2>
+    Second header <br>
+    <!-- Email ko link rakhna ko lagi <a> tag ko prayog-->
+
+
+    <a href="mailto:sudhamshusubedi@gmail.com"> mail me at </a>
+    <br>
+</h2>
+<h3>
+    Third header
+</h3>
+
+<body>
+    <P id="image tag"> Use of "img" tag and source (src) attribute:<br> From relative URL :<br>
+        <img src="/home/sudhamshusubedi/Downloads/2.jpg" width="300" height="300" alt="Image"> <br> From Absolute Url:<br>
+
+        <img src="https://3.bp.blogspot.com/-rHsJba-SxKU/W7thqYsE6MI/AAAAAAAAAJE/yMxwRtuuQuYXwGNSvZCOWHgZRIyibdWrACLcBGAs/w945-h600-p-k-no-nu/200px-The_Pirate_Bay_logo.svg.png" alt="The_Pirate_Bay_logo">
+
+        <br> Use of "img" tag with "a" tag for hyperlinking ie. image as a link <br>
+
+        <a href="https://techaxploit.blogspot.com"> <img src="https://3.bp.blogspot.com/-rHsJba-SxKU/W7thqYsE6MI/AAAAAAAAAJE/yMxwRtuuQuYXwGNSvZCOWHgZRIyibdWrACLcBGAs/w945-h600-p-k-no-nu/200px-The_Pirate_Bay_logo.svg.png" alt="pirate bay ko logo"> </a>
+
+
+    </P>
+    <!-- Aba aauxa <abbr> tag ko palo yo chai abbreviation yaniki short form ko lagi 
+        use hunxa mouse short form ko mathi lagda full form dekhinxa -->
+
+    <br>
+    <p> This is made by : <br> Mr.
+        <abbr title=" Sudhamshu ">S</abbr>.Subedi
+
+        <!-- <dfn> tag can be used to make the short form or any sentence  itallic or focused -->
+        <br>
+        <dfn> This web page is written in <abbr title="Hyper Text Markup Language "> HTML </abbr></dfn>
+    </p>
+
+    <!-- aba palo adress tag ko yesle adress rakhna ko lagi prayog hunxa -->
+    <address>
+            This page is written by <a href="mailto:sudhamshusubedi@gmail.com"> sudhamshusubedi</a> <br>
+            Kushma,parbat <br>
+            Nepal
+        </address>
+
+
+    <!-- Now its turn for embedding different object 
+            for audio <audio> tag can be used 
+            for video <video> tag can be used
+            for embedding documents and picture self closing tags  <object> and <embed> 
+                can be used object data lekhne tara embed bhitra src  
+                tara documents ko lagi <iframe> tag ra picture ko lagi self closing <img> 
+                use garda ramro 
+            -->
+    <br>
+    <video controls> 
+            <source src="/home/sudhamshusubedi/0 Introduction - AutoCAD Nepali Tutorials - Project-3.mp4"
+            type="video/mp4">
+            </video>
+
+
+    <br>
+    <audio controls>
+             <source src="" 
+            type="">
+            </audio>
+    <br>
+
+    <iframe src="" title=""> </iframe>
+    <br>
+    <!-- Euta image ko kunai part ma click garera fixed link ma jani
+        ko lagi <usemap> <<area> tag ko prayog garna sakinxa
+    -->
+    <img src="/home/sudhamshusubedi/Downloads/11.1.png" usemap="#mobilemap" width="600" height="450">
+    <map name="mobilemap">
+    <area shape="circ" coords="241,41,13" href="/home/sudhamshusubedi/front camera.html" target="_blank" alt="">    
+    </map>
+    <!-- Aba palo chai artical element ko yo chai blogging ko lagi use hunxa kunai khaas difference didaina yesle tara 
+css ma xuttai formatting garna milxa so blogging ... haru ma use garda ramro-->
+    <article>
+        <H2> First article </H2>
+
+        <p> Mero naam sudhamshu subedi ho. Ma chai aile yetikai basira ho hai ta la .</p>
+
+    </article>
+
+    <article>
+        <h2>
+            Second Article
+
+        </h2>
+        <p id=border>
+            Alxi laako bela k k garnu parxa hau garo xa.
+        </p>
+    </article>
+    <!-- palo <bdi> element ko yo bhaneko bidirectional isolation ho 
+     example ko lagi arbaic word hannu paryo katai bich ma bhaney tyo right tira bata lekhinxa ani formatting mildena
+    so tesko lagi bdi le isolate garera lekni
+Yesari nai <bdo> chai direction over ride garna ko lagi ho yo bhitra text rakhera right to left attribute diyo bhaney 
+    text right bata suru hunxa.
+-->
+
+
+    <!-- Abo paalo button element ki -->
+    <button type="button" onclick=" alert( 'Hello this is sudhamshu') "> click me!   </button>
+
+    <br>
+    <button type="menu" onclick=" "> click  <Menu contextmenu=" sudamshu" ></Menu></button>
+
+    <!-- Detail element use garera kunai euta topic lai expand ra contract garna sakinxa -->
+
+    <details>
+        <summary>
+            Name
+        </summary>
+        <p>
+            My name is Sudhamshu Subedi.
+        </p>
+    </details>
+    <!-- datalist ,label, fieldset ley input form ko rup ma kaam garxan tema datalist le chain predefined data har sanga compare garxa bhaney 
+fieldset le chai inputs haru lai ekai thau ma baadxa  Yesko lagi php ko ni gyan chaine-->
+
+    <fieldset>
+
+    </fieldset>
+
+
+    <!-- aba paalo CSS ko ho inline ra internal mathi nai sikyeko xa aba external ko palo 
+suru ma css document lai .css extension ma save garne html ma link garna ki lagi chai 
+<link> tag ko use garne  
+-->
+
+
+    <!-- Aba paalo java script ko 
+java script pani internal external jata pani define garna sakinxa -->
+
+    <p id="testse"> This is test sentence. </p>
+    <button type="button" onclick="fun()"> CLick here</button>
+    <script>
+        function fun() {
+            document.getElementById("testse").innerHTML = " This is after js";
+        }
+    </script>
+
+
+    <button type="button" onclick="fun2()"> aba yeta pani</button>
+    <script src="/home/sudhamshusubedi/test.js">
+    </script>
+    <!-- 
+           JS le data display garna ko loagi dherai tarika xan 
+           writing into an html element using innerhtml
+           writing into html output usingdocument.write()
+           wiriting into alert box using window.alert()
+           writing into browser console using console.log()
+
+       -->
+
+    <!-- using innerhtml-->
+    <P id="id1"> </P>
+    <script>
+        document.getElementById("id1").innerHTML = "This is text displayed using js with innerhtml property";
+    </script>
+    <!-- aba paalo chai document.write ko ho  -->
+    <!-- Using document.write() after an HTML document is loaded, will delete all existing HTML: -->
+    <!-- <script>
+        document.write("sudhamshu subedi");
+    </script> -->
+
+    <!-- using window.alert where window is optional as it is default value-->
+    <button type="button" onclick="clic()"> click message</button>
+    <script>
+        function clic() {
+            alert("Hi this is sudhamshu subedi")
+        }
+    </script>
+
+
+
+</body>
+
+</html>
